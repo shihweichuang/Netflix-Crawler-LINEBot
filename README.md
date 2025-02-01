@@ -156,3 +156,53 @@
 <div style="text-align: right;">
    <img src="https://i.imgur.com/q2tXVwq.jpeg" alt="Bubble【Netflix 新片(節目-含簡介) 11-20】" width="278" height="540">  
 </div>
+
+## Top 10 - 電影
+
+1. 輸入 ---> Netflix 片單查詢<br>
+   回傳 ---> Netflix 片單查詢
+<img src="https://i.imgur.com/dALuhfA.jpeg" alt="Bubble【Netflix 片單查詢】" width="278" height="420">
+
+2. 點擊 ---> Netflix 片單查詢 - Top 10 電影<br>
+   帶入 ---> Netflix Top 10 (電影-不含簡介)<br>
+   回傳 ---> Netflix Top 10 (電影-不含簡介)<br>
+<div style="text-align: right;">
+   <img src="https://i.imgur.com/PmLqjUL.jpeg" alt="Bubble【Netflix Top 10 (電影-不含簡介)】" width="278" height="460">  
+</div>
+<br>
+
+3. 點擊 ---> Netflix Top 10 (電影-不含簡介) 預告<br>
+   跳出 ---> 影片對應連結
+<img src="https://i.imgur.com/5ntgKCS.jpeg" alt="影片預告連結" width="278" height="560">
+
+4. 點擊 ---> Netflix Top 10 (電影-不含簡介) 切換至簡介版本<br>
+   帶入 ---> Netflix Top 10 (電影-含簡介)<br>
+   回傳 ---> Netflix Top 10 (電影-含簡介)<br>
+<div style="text-align: right;">
+   <img src="https://i.imgur.com/NVCY1pn.jpeg" alt="Bubble【Netflix Top 10 (電影-含簡介)】" width="278" height="520">  
+</div>
+
+## Top 10 - 節目
+
+1. 輸入 ---> Netflix 片單查詢<br>
+   回傳 ---> Netflix 片單查詢
+<img src="https://i.imgur.com/dALuhfA.jpeg" alt="Bubble【Netflix 片單查詢】" width="278" height="420">
+
+2. 點擊 ---> Netflix 片單查詢 - Top 10 節目<br>
+   帶入 ---> Netflix Top 10 (節目-不含簡介)<br>
+   回傳 ---> Netflix Top 10 (節目-不含簡介)<br>
+<div style="text-align: right;">
+   <img src="https://i.imgur.com/Xnf6FNl.jpeg" alt="Bubble【Netflix Top 10 (節目-不含簡介)】" width="278" height="460">  
+</div>
+<br>
+
+3. 點擊 ---> Netflix Top 10 (節目-不含簡介) 預告<br>
+   跳出 ---> 影片對應連結
+<img src="https://i.imgur.com/9UlMars.jpeg" alt="影片預告連結" width="278" height="560">
+
+4. 點擊 ---> Netflix Top 10 (節目-不含簡介) 切換至簡介版本<br>
+   帶入 ---> Netflix Top 10 (節目-含簡介)<br>
+   回傳 ---> Netflix Top 10 (節目-含簡介)<br>
+<div style="text-align: right;">
+   <img src="https://i.imgur.com/eEjxTH9.jpeg" alt="Bubble【Netflix Top 10 (節目-含簡介)】" width="278" height="520">  
+</div>
