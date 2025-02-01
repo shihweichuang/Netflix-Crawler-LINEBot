@@ -1,6 +1,6 @@
-# Netflix crawler 功能說明
+# 主要功能
 
-使用者可以直接在 LINE Bot 中輸入指定指令，系統即可回傳 Netflix 新片清單、熱門排行。
+使用者在 LINE Bot 中輸入指定指令，系統即可回傳 Netflix 新片清單、熱門排行等資訊。
 
 此外，還能夠將指定內容分享給 LINE 好友，與朋友一同討論，促進交流。
 
@@ -8,7 +8,7 @@
 
 # 專案發想
 
-平時在看 Netflix 時，會關注最近有什麼新片上線、熱門排行有哪些。
+平時在使用串流平台 Netflix 時，會關注最近有什麼新片上線、熱門排行有哪些。
 
 然而，如果要查看這些資訊，都會需要開啟指定網頁，會花費一點時間。
 
@@ -18,7 +18,7 @@
 
 # 解決方案
 
-使用 Python 的爬蟲套件(requests, BeautifulSoup, Selenium)爬取單頁、多頁的資料，再結合 LINE BOT SDK ，以達到本次專案預期功能。
+使用 Python 的爬蟲套件(requests, BeautifulSoup, Playwright)爬取單頁、多頁的資料，再結合 LINE BOT SDK ，以達到本次專案預期功能。
 
 之所以使用 LINE Bot 作為本次專案介面，是根據 <a href="https://datareportal.com/reports/digital-2023-taiwan?_trms=ac920f3ad09a7a33.1693645815116">DIGITAL 2023: TAIWAN</a> 指出 LINE 為台灣占主導地位的社群媒體平台。
 
@@ -58,7 +58,7 @@
 
 透過詢問周邊朋友的觀影習慣，問題如「平時在挑選 Netflix 節目、電影時，會從哪些項目判斷? 出版年份? 類型? 演員? 簡介?」
 
-最後定案為保留「片名、出版年份、網址、上線日期、類型、簡介」等資訊項目，並且針對「簡介」製作了兩個版本，供使用者自行選擇當下是否需要簡介說明。
+最後定案為保留「片名、出版年份、網址、上線日期、類型、演員、簡介」等資訊項目，並且針對「簡介」製作了兩個版本，供使用者自行選擇當下是否需要簡介說明。
 
 ## 2. 爬取資料的時間較長
 
@@ -85,22 +85,51 @@
 
 ## 新片清單
 
-1. 使用者輸入 ---> 文字【查詢】<br>
-   系統回傳 ---> Bubble【查詢】
-<img src="https://i.imgur.com/cfiKwoN.jpg" alt="Bubble【查詢】" width="278" height="369">
-<br>
-2. 使用者點擊 ---> Bubble【查詢】中的按鈕【新片】<br>
-   系統帶入 ---> 文字【Netflix 台灣 新片】<br>
-   系統回傳 ---> Bubble【新片清單】
-<img src="https://i.imgur.com/TVEf4Rn.jpg" alt="Bubble【新片清單】" width="278" height="335">
+1. 輸入 ---> Netflix 片單查詢<br>
+   回傳 ---> Netflix 片單查詢
+<img src="https://i.imgur.com/dALuhfA.jpeg" alt="Bubble【Netflix 片單查詢】" width="278" height="420">
+
+2. 點擊 ---> Netflix 片單查詢 - 新片 電影<br>
+   帶入 ---> Netflix 新片(電影-不含簡介) 1-10<br>
+   回傳 ---> Netflix 新片(電影-不含簡介) 1-10<br>
+             (如果超過 10 部，最後會顯示下一頁。)
+<div style="text-align: right;">
+   <img src="https://i.imgur.com/UEc5yqt.jpeg" alt="Bubble【Netflix 新片(電影-不含簡介) 1-10】" width="278" height="480">  
+   <img src="https://i.imgur.com/k5rS6IG.jpeg" alt="Bubble【Netflix 新片(電影-不含簡介) 1-10】" width="278" height="480">
+</div>
+
+3. 點擊 ---> Netflix 新片(電影-不含簡介) 1-10 預告<br>
+   跳出 ---> 影片對應連結
+<img src="https://i.imgur.com/yADsSU6.jpeg" alt="影片預告連結" width="278" height="560">
+
+4. 點擊 ---> Netflix 新片(電影-不含簡介) 1-10 下一頁<br>
+   帶入 ---> Netflix 新片(電影-不含簡介) 11-20<br>
+   回傳 ---> Netflix 新片(電影-不含簡介) 11-20<br>
+            (最後會顯示上一頁；如果超過 20 部，最後會顯示下一頁，依此類推。)
+<div style="text-align: right;">
+   <img src="https://i.imgur.com/VbXBazg.jpeg" alt="Bubble【Netflix 新片(電影-不含簡介) 11-20】" width="278" height="480">  
+   <img src="https://i.imgur.com/aOwribP.jpeg" alt="Bubble【Netflix 新片(電影-不含簡介) 11-20 上一頁】" width="278" height="480">
+</div>
+
+5. 點擊 ---> Netflix 新片(電影-不含簡介) 11-20 切換至簡介版本<br>
+   帶入 ---> Netflix 新片(電影-含簡介) 11-20<br>
+   回傳 ---> Netflix 新片(電影-含簡介) 11-20<br>
+<div style="text-align: right;">
+   <img src="https://i.imgur.com/DWJhbRI.jpeg" alt="Bubble【Netflix 新片(電影-含簡介) 11-20】" width="278" height="480">  
+</div>
+
+
+
+
+
 
 ## 新片(含影片簡介)
 
 1. 使用者點擊 ---> Bubble【新片清單】中的按鈕【含影片簡介】<br>
    系統帶入 ---> 文字【Netflix 台灣 新片(含簡介) --- 1-20】<br>
-   系統回傳 ---> 文字【Netflix 新片(含簡介) 1-20】 + Bubble【換頁按鈕】
+   系統回傳 ---> 文字【Netflix 新片(含簡介) 1-10】 + Bubble【換頁按鈕】
 <img src="https://i.imgur.com/L3ORxEU.jpg" alt="文字【Netflix 新片(含簡介) 1-20】" width="278" height="446">
-<img src="https://i.imgur.com/xu6puEJ.jpg" alt="Bubble【換頁按鈕】" width="278" height="476">
+<img src="https://i.imgur.com/k5rS6IG.jpeg" alt="Bubble【換頁按鈕】" width="278" height="476">
 
 2. 使用者點擊 ---> Bubble【換頁按鈕】中的按鈕【21-40】<br>
    系統帶入 ---> 文字【Netflix 台灣 新片(含簡介) --- 21-40】<br>
