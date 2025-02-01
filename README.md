@@ -83,7 +83,7 @@
 
 # 使用方式
 
-## 新片清單
+## 新片 - 電影
 
 1. 輸入 ---> Netflix 片單查詢<br>
    回傳 ---> Netflix 片單查詢
@@ -95,8 +95,9 @@
              (如果超過 10 部，最後會顯示下一頁。)
 <div style="text-align: right;">
    <img src="https://i.imgur.com/UEc5yqt.jpeg" alt="Bubble【Netflix 新片(電影-不含簡介) 1-10】" width="278" height="480">  
-   <img src="https://i.imgur.com/k5rS6IG.jpeg" alt="Bubble【Netflix 新片(電影-不含簡介) 1-10】" width="278" height="480">
+   <img src="https://i.imgur.com/k5rS6IG.jpeg" alt="Bubble【Netflix 新片(電影-不含簡介) 1-10 下一頁】" width="278" height="480">
 </div>
+<br>
 
 3. 點擊 ---> Netflix 新片(電影-不含簡介) 1-10 預告<br>
    跳出 ---> 影片對應連結
@@ -110,128 +111,48 @@
    <img src="https://i.imgur.com/VbXBazg.jpeg" alt="Bubble【Netflix 新片(電影-不含簡介) 11-20】" width="278" height="480">  
    <img src="https://i.imgur.com/aOwribP.jpeg" alt="Bubble【Netflix 新片(電影-不含簡介) 11-20 上一頁】" width="278" height="480">
 </div>
+<br>
 
 5. 點擊 ---> Netflix 新片(電影-不含簡介) 11-20 切換至簡介版本<br>
    帶入 ---> Netflix 新片(電影-含簡介) 11-20<br>
    回傳 ---> Netflix 新片(電影-含簡介) 11-20<br>
 <div style="text-align: right;">
-   <img src="https://i.imgur.com/DWJhbRI.jpeg" alt="Bubble【Netflix 新片(電影-含簡介) 11-20】" width="278" height="480">  
+   <img src="https://i.imgur.com/DWJhbRI.jpeg" alt="Bubble【Netflix 新片(電影-含簡介) 11-20】" width="278" height="540">  
 </div>
 
+## 新片 - 節目
 
+1. 輸入 ---> Netflix 片單查詢<br>
+   回傳 ---> Netflix 片單查詢
+<img src="https://i.imgur.com/dALuhfA.jpeg" alt="Bubble【Netflix 片單查詢】" width="278" height="420">
 
+2. 點擊 ---> Netflix 片單查詢 - 新片 節目<br>
+   帶入 ---> Netflix 新片(節目-不含簡介) 1-10<br>
+   回傳 ---> Netflix 新片(節目-不含簡介) 1-10<br>
+             (如果超過 10 部，最後會顯示下一頁。)
+<div style="text-align: right;">
+   <img src="https://i.imgur.com/9Hif4Yi.jpeg" alt="Bubble【Netflix 新片(節目-不含簡介) 1-10】" width="278" height="480">  
+   <img src="https://i.imgur.com/a0THv65.jpeg" alt="Bubble【Netflix 新片(節目-不含簡介) 1-10 下一頁】" width="278" height="480">
+</div>
+<br>
 
+3. 點擊 ---> Netflix 新片(節目-不含簡介) 1-10 預告<br>
+   跳出 ---> 影片對應連結
+<img src="https://i.imgur.com/R866KBW.jpeg" alt="影片預告連結" width="278" height="560">
 
+4. 點擊 ---> Netflix 新片(節目-不含簡介) 1-10 下一頁<br>
+   帶入 ---> Netflix 新片(節目-不含簡介) 11-20<br>
+   回傳 ---> Netflix 新片(節目-不含簡介) 11-20<br>
+            (最後會顯示上一頁；如果超過 20 部，最後會顯示下一頁，依此類推。)
+<div style="text-align: right;">
+   <img src="https://i.imgur.com/Dh6yPl6.jpeg" alt="Bubble【Netflix 新片(節目-不含簡介) 11-20】" width="278" height="480">  
+   <img src="https://i.imgur.com/Lhzw8IF.jpeg" alt="Bubble【Netflix 新片(節目-不含簡介) 11-20 上一頁】" width="278" height="480">
+</div>
+<br>
 
-## 新片(含影片簡介)
-
-1. 使用者點擊 ---> Bubble【新片清單】中的按鈕【含影片簡介】<br>
-   系統帶入 ---> 文字【Netflix 台灣 新片(含簡介) --- 1-20】<br>
-   系統回傳 ---> 文字【Netflix 新片(含簡介) 1-10】 + Bubble【換頁按鈕】
-<img src="https://i.imgur.com/L3ORxEU.jpg" alt="文字【Netflix 新片(含簡介) 1-20】" width="278" height="446">
-<img src="https://i.imgur.com/k5rS6IG.jpeg" alt="Bubble【換頁按鈕】" width="278" height="476">
-
-2. 使用者點擊 ---> Bubble【換頁按鈕】中的按鈕【21-40】<br>
-   系統帶入 ---> 文字【Netflix 台灣 新片(含簡介) --- 21-40】<br>
-   系統回傳 ---> 文字【Netflix 新片(含簡介) 21-40】 + Bubble【換頁按鈕】
-<img src="https://i.imgur.com/pD8CZX3.jpg" alt="文字【Netflix 新片(含簡介) 21-40】" width="278" height="476">
-<img src="https://i.imgur.com/vuiLHSZ.jpg" alt="Bubble【換頁按鈕】" width="278" height="476">
-
-3. 使用者點擊 ---> Bubble【換頁按鈕】中的按鈕【41-60】<br>
-   系統帶入 ---> 文字【Netflix 台灣 新片(含簡介) --- 41-60】<br>
-   系統回傳 ---> 文字【Netflix 新片(含簡介) 41-60】 + Bubble【換頁按鈕】
-<img src="https://i.imgur.com/8WFgISD.jpg" alt="文字【Netflix 新片(含簡介) 41-60】" width="278" height="469">
-<img src="https://i.imgur.com/ACLnE9U.jpg" alt="Bubble【換頁按鈕】" width="278" height="476">
-
-## 新片(不含影片簡介)
-
-1. 使用者輸入 ---> 文字【查詢】<br>
-   系統回傳 ---> Bubble【查詢】
-<img src="https://i.imgur.com/cfiKwoN.jpg" alt="Bubble【查詢】" width="278" height="369">
-
-2. 使用者點擊 ---> Bubble【查詢】中的按鈕【新片】<br>
-   系統帶入 ---> 文字【Netflix 台灣 新片】<br>
-   系統回傳 ---> Bubble【新片清單】
-<img src="https://i.imgur.com/TVEf4Rn.jpg" alt="Bubble【新片清單】" width="278" height="335">
-
-3. 使用者點擊 ---> Bubble【新片清單】中的按鈕【不含影片簡介】<br>
-   系統帶入 ---> 文字【Netflix 台灣 新片(不含簡介) --- 1-20】<br>
-   系統回傳 ---> 文字【Netflix 新片(不含簡介) 1-20】 + Bubble【換頁按鈕】
-<img src="https://i.imgur.com/HZzH6uJ.jpg" alt="文字【Netflix 新片(不含簡介) 1-20】" width="278" height="476">
-<img src="https://i.imgur.com/A5Gj3xp.jpg" alt="Bubble【換頁按鈕】" width="278" height="476">
-
-4. 使用者點擊 ---> Bubble【換頁按鈕】中的按鈕【21-40】<br>
-   系統帶入 ---> 文字【Netflix 台灣 新片(不含簡介) --- 21-40】<br>
-   系統回傳 ---> 文字【Netflix 新片(不含簡介) 21-40】 + Bubble【換頁按鈕】
-<img src="https://i.imgur.com/fv36iCT.jpg" alt="文字【Netflix 新片(不含簡介) 21-40】" width="278" height="476">
-<img src="https://i.imgur.com/2DHfP1G.jpg" alt="Bubble【換頁按鈕】" width="278" height="476">
-
-5. 使用者點擊 ---> Bubble【換頁按鈕】中的按鈕【41-60】<br>
-   系統帶入 ---> 文字【Netflix 台灣 新片(不含簡介) --- 41-60】<br>
-   系統回傳 ---> 文字【Netflix 新片(不含簡介) 41-60】 + Bubble【換頁按鈕】
-<img src="https://i.imgur.com/C9w1KPv.jpg" alt="文字【Netflix 新片(不含簡介) 41-60】" width="278" height="476">
-<img src="https://i.imgur.com/x9pQWEe.jpg" alt="Bubble【換頁按鈕】" width="278" height="476">
-
-## Top 10 電影(含簡介)
-
-1. 使用者輸入 ---> 文字【查詢】<br>
-   系統回傳 ---> Bubble【查詢】
-<img src="https://i.imgur.com/cfiKwoN.jpg" alt="Bubble【查詢】" width="278" height="369">
-
-2. 使用者點擊 ---> Bubble【查詢】中的按鈕【Top 10 電影】<br>
-   系統帶入 ---> 文字【Netflix 台灣 Top 10 電影】<br>
-   系統回傳 ---> Bubble【Top 10 電影】
-<img src="https://i.imgur.com/DJZK4ux.jpg" alt="Bubble【Top 10 電影】" width="278" height="337">
-
-3. 使用者點擊 ---> Bubble【Top 10 電影】中的按鈕【含影片簡介】<br>
-   系統帶入 ---> 文字【Netflix 台灣 Top 10 電影(含簡介)】<br>
-   系統回傳 ---> 文字【Netflix 台灣 Top 10 電影(含簡介)】
-<img src="https://i.imgur.com/ZntwLdE.jpg" alt="文字【Netflix 台灣 Top 10 電影(含簡介)】" width="278" height="476">
-
-## Top 10 電影(不含簡介)
-
-1. 使用者輸入 ---> 文字【查詢】<br>
-   系統回傳 ---> Bubble【查詢】
-<img src="https://i.imgur.com/cfiKwoN.jpg" alt="Bubble【查詢】" width="278" height="369">
-
-2. 使用者點擊 ---> Bubble【查詢】中的按鈕【Top 10 電影】<br>
-   系統帶入 ---> 文字【Netflix 台灣 Top 10 電影】<br>
-   系統回傳 ---> Bubble【Top 10 電影】
-<img src="https://i.imgur.com/DJZK4ux.jpg" alt="Bubble【Top 10 電影】" width="278" height="337">
-
-3. 使用者點擊 ---> Bubble【Top 10 電影】中的按鈕【不含影片簡介】<br>
-   系統帶入 ---> 文字【Netflix 台灣 Top 10 電影(不含簡介)】<br>
-   系統回傳 ---> 文字【Netflix 台灣 Top 10 電影(不含簡介)】
-<img src="https://i.imgur.com/tu8EZaZ.jpg" alt="文字【Netflix 台灣 Top 10 電影(不含簡介)】" width="278" height="476">
-
-## Top 10 節目(含簡介)
-
-1. 使用者輸入 ---> 文字【查詢】<br>
-   系統回傳 ---> Bubble【查詢】
-<img src="https://i.imgur.com/cfiKwoN.jpg" alt="Bubble【查詢】" width="278" height="369">
-
-2. 使用者點擊 ---> Bubble【查詢】中的按鈕【Top 10 節目】<br>
-   系統帶入 ---> 文字【Netflix 台灣 Top 10 節目】<br>
-   系統回傳 ---> Bubble【Top 10 節目】
-<img src="https://i.imgur.com/n281gKC.jpg" alt="Bubble【Top 10 節目】" width="278" height="334">
-
-3. 使用者點擊 ---> Bubble【Top 10 節目】中的按鈕【含影片簡介】<br>
-   自動帶入 ---> 文字【Netflix 台灣 Top 10 節目(含簡介)】<br>
-   系統回傳 ---> 文字【Netflix 台灣 Top 10 節目(含簡介)】
-<img src="https://i.imgur.com/qkMl0Iu.jpg" alt="文字【Netflix 台灣 Top 10 節目(含簡介)】" width="278" height="476">
-
-## Top 10 節目(不含簡介)
-
-1. 使用者輸入 ---> 文字【查詢】<br>
-   系統回傳 ---> Bubble【查詢】
-<img src="https://i.imgur.com/cfiKwoN.jpg" alt="Bubble【查詢】" width="278" height="369">
-
-2. 使用者點擊 ---> Bubble【查詢】中的按鈕【Top 10 節目】<br>
-   系統帶入 ---> 文字【Netflix 台灣 Top 10 節目】<br>
-   系統回傳 ---> Bubble【Top 10 節目】
-<img src="https://i.imgur.com/n281gKC.jpg" alt="Bubble【Top 10 節目】" width="278" height="334">
-
-3. 使用者點擊 ---> Bubble【Top 10 節目】中的按鈕【不含影片簡介】<br>
-   系統帶入 ---> 文字【Netflix 台灣 Top 10 節目(不含簡介)】<br>
-   系統回傳 ---> 文字【Netflix 台灣 Top 10 節目(不含簡介)】
-<img src="https://i.imgur.com/q2tupwU.jpg" alt="文字【Netflix 台灣 Top 10 節目(不含簡介)】" width="278" height="476">
+5. 點擊 ---> Netflix 新片(節目-不含簡介) 11-20 切換至簡介版本<br>
+   帶入 ---> Netflix 新片(節目-含簡介) 11-20<br>
+   回傳 ---> Netflix 新片(節目-含簡介) 11-20<br>
+<div style="text-align: right;">
+   <img src="https://i.imgur.com/q2tXVwq.jpeg" alt="Bubble【Netflix 新片(節目-含簡介) 11-20】" width="278" height="540">  
+</div>
