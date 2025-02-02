@@ -1,4 +1,8 @@
-# 主要功能
+# Netflix 片單查詢機器人
+
+<br>
+
+## 主要功能
 
 使用者在 LINE Bot 中輸入指定指令，系統即可回傳串流平台 Netflix 的新片清單、熱門排行等資訊。
 
@@ -6,7 +10,7 @@
 
 <br>
 
-# 專案發想
+## 專案發想
 
 平時在使用串流平台 Netflix 時，常會關注「最近有什麼新片上線、熱門排行有哪些?」。
 
@@ -16,7 +20,7 @@
 
 <br>
 
-# 解決方案
+## 解決方案
 
 使用 Python 的爬蟲套件(requests, BeautifulSoup, Playwright)爬取單頁、多頁的資料，再結合 LINE BOT SDK ，以達到本次專案預期功能。
 
@@ -28,7 +32,7 @@
 
 <br>
 
-# 開發過程紀錄
+## 開發過程紀錄
 
 1. 規劃預期效果、使用者介面、整體使用流程
 
@@ -50,69 +54,69 @@
 
 <br>
 
-# 開發期間遇到的問題
+## 開發期間遇到的問題
 
-## 1. 回傳的內容要放入哪些項目
+### 1. 回傳的內容要放入哪些項目
 
 從開始開發時，便從使用者的角度思考「我在使用時會希望看到甚麼資訊呢?」，使用者需要哪些資訊，才利於做出決定(選定要看哪一齣節目、哪一部電影)。然而，如果放上太多的資訊，反而無助使用者作出抉擇，也不利於呈現在 LINE 上。
 
 本次專案僅由我一人負責，故無法確定哪些項目適合留下。
 
-### 解決方法
+解決方法：
 
 透過詢問周邊朋友的觀影習慣，問題如「平時在挑選 Netflix 節目、電影時，會從哪些項目判斷? 出版年份? 類型? 演員? 簡介?」
 
 最後定案為保留「片名、出版年份、網址、上線日期、類型、演員、簡介」等資訊項目，並且針對「簡介」製作了兩個版本，供使用者自行選擇當下是否需要簡介說明。
 
-## 2. 爬取資料的時間較長
+### 2. 爬取資料的時間較長
 
 由於爬取資料的時間較長，如果每次執行時都要重新爬取，可能會讓使用者等得不耐煩，甚至會覺得是系統當機。
 
-### 解決方法
+解決方法：
 
 在開發環境 Docker container 中設定 cron，每周執行一次資料爬取資料。
 
 
-## 3. 排名資料頁面為全英文
+### 3. 排名資料頁面為全英文
 
 熱門排名資料是從 Neflix Tudum 上爬取，然該目前該網站只提供英文版，無法直接抓取頁面上的資料進行使用。
 
-### 解決方法
+解決方法：
 
 研究 Tudum 官網的 HTML 後，發現其中包含了影片的 ID 號碼，可透過該號碼再連結至另一頁面進行資料爬取。
 
 <br>
 
-# 爬取頁面
+## 爬取頁面
 
-## 1. <a href="https://about.netflix.com/zh_tw/new-to-watch">Netflix 新片</a>
+### 1. <a href="https://about.netflix.com/zh_tw/new-to-watch">Netflix 新片</a>
 
 抓取資訊：所有影片的ID及上架日期。
 
 <img src="https://i.imgur.com/Yf4yRQR.png" alt="Netflix 新片頁面" width="556" height="960">
 
-## 2. <a href="https://www.netflix.com/tw/title/81942643">Netflix 影片介紹</a>
+### 2. <a href="https://www.netflix.com/tw/title/81942643">Netflix 影片介紹</a>
 
 抓取資訊：影片名稱、片長、影片類別、影片簡介、主演名單、創作者名單、詳細類型、影片性質等。
 
 <img src="https://i.imgur.com/zfeoL5e.jpeg" alt="Netflix 影片頁面" width="556" height="640">
 
-## 3. <a href="https://www.netflix.com/tudum/top10/taiwan">Netflix Top 10 電影</a>
+### 3. <a href="https://www.netflix.com/tudum/top10/taiwan">Netflix Top 10 電影</a>
 
 抓取資訊：影片ID。
 
 <img src="https://i.imgur.com/82drKVW.png" alt="Netflix Top 10 電影" width="556" height="640">
 
-## 4. <a href="https://www.netflix.com/tudum/top10/taiwan/tv">Netflix Top 10 節目</a>
+### 4. <a href="https://www.netflix.com/tudum/top10/taiwan/tv">Netflix Top 10 節目</a>
 
 抓取資訊：影片ID。
 
 <img src="https://i.imgur.com/g8Ook0C.png" alt="Netflix Top 10 節目" width="556" height="640">
 
 
-# 使用方式
+## 使用方式
 
-## 新片 - 電影
+### 新片 - 電影
 
 1. 輸入 ---> Netflix 片單查詢<br>
    回傳 ---> Netflix 片單查詢
@@ -149,7 +153,7 @@
    <img src="https://i.imgur.com/DWJhbRI.jpeg" alt="Bubble【Netflix 新片(電影-含簡介) 11-20】" width="278" height="540">  
 </div>
 
-## 新片 - 節目
+### 新片 - 節目
 
 1. 輸入 ---> Netflix 片單查詢<br>
    回傳 ---> Netflix 片單查詢
@@ -186,7 +190,7 @@
    <img src="https://i.imgur.com/q2tXVwq.jpeg" alt="Bubble【Netflix 新片(節目-含簡介) 11-20】" width="278" height="540">  
 </div>
 
-## Top 10 - 電影
+### Top 10 - 電影
 
 1. 輸入 ---> Netflix 片單查詢<br>
    回傳 ---> Netflix 片單查詢
@@ -211,7 +215,7 @@
    <img src="https://i.imgur.com/NVCY1pn.jpeg" alt="Bubble【Netflix Top 10 (電影-含簡介)】" width="278" height="520">  
 </div>
 
-## Top 10 - 節目
+### Top 10 - 節目
 
 1. 輸入 ---> Netflix 片單查詢<br>
    回傳 ---> Netflix 片單查詢
