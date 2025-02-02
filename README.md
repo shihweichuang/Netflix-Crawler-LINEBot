@@ -73,7 +73,7 @@
 在開發環境 Docker container 中設定 cron，每周執行一次資料爬取資料。
 
 
-## 4. 排名資料頁面為全英文
+## 3. 排名資料頁面為全英文
 
 熱門排名資料是從 Neflix Tudum 上爬取，然該目前該網站只提供英文版，無法直接抓取頁面上的資料進行使用。
 
@@ -82,6 +82,33 @@
 研究 Tudum 官網的 HTML 後，發現其中包含了影片的 ID 號碼，可透過該號碼再連結至另一頁面進行資料爬取。
 
 <br>
+
+# 爬取頁面
+
+## 1. <a href="https://about.netflix.com/zh_tw/new-to-watch">Netflix 新片</a>
+
+抓取資訊：所有影片的ID及上架日期。
+
+<img src="https://i.imgur.com/Yf4yRQR.png" alt="Netflix 新片頁面" width="556" height="960">
+
+## 2. <a href="https://www.netflix.com/tw/title/81942643">Netflix 影片介紹</a>
+
+抓取資訊：影片名稱、片長、影片類別、影片簡介、主演名單、創作者名單、詳細類型、影片性質等。
+
+<img src="https://i.imgur.com/zfeoL5e.jpeg" alt="Netflix 影片頁面" width="556" height="640">
+
+## 3. <a href="https://www.netflix.com/tudum/top10/taiwan">Netflix Top 10 電影</a>
+
+抓取資訊：影片ID。
+
+<img src="https://i.imgur.com/82drKVW.png" alt="Netflix Top 10 電影" width="556" height="640">
+
+## 4. <a href="https://www.netflix.com/tudum/top10/taiwan/tv">Netflix Top 10 節目</a>
+
+抓取資訊：影片ID。
+
+<img src="https://i.imgur.com/g8Ook0C.png" alt="Netflix Top 10 節目" width="556" height="640">
+
 
 # 使用方式
 
