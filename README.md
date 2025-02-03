@@ -107,15 +107,15 @@
 
 1. 輸入 ---> Netflix 片單查詢<br>
    回傳 ---> Netflix 片單查詢
-<img src="https://i.imgur.com/dALuhfA.jpeg" alt="Bubble【Netflix 片單查詢】" width="278" height="420">
+<img src="https://i.imgur.com/0chPakV.jpeg" alt="Bubble【Netflix 片單查詢】" width="800" height="350">
 
 2. 點擊 ---> Netflix 片單查詢 - 新片 電影<br>
    帶入 ---> Netflix 新片(電影-不含簡介) 1-10<br>
    回傳 ---> Netflix 新片(電影-不含簡介) 1-10<br>
              (如果超過 10 部，最後會顯示下一頁。)
 <div style="text-align: right;">
-   <img src="https://i.imgur.com/UEc5yqt.jpeg" alt="Bubble【Netflix 新片(電影-不含簡介) 1-10】" width="278" height="480">  
-   <img src="https://i.imgur.com/k5rS6IG.jpeg" alt="Bubble【Netflix 新片(電影-不含簡介) 1-10 下一頁】" width="278" height="480">
+   <img src="https://i.imgur.com/9jYRNcp.jpeg" alt="Bubble【Netflix 新片(電影-不含簡介) 1-10】" width="278" height="480">  
+   <img src="https://i.imgur.com/NNVT3P0.jpeg" alt="Bubble【Netflix 新片(電影-不含簡介) 1-10 下一頁】" width="278" height="480">
 </div>
 <br>
 
