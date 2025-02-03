@@ -107,7 +107,7 @@
 
 1. 輸入 ---> Netflix 片單查詢<br>
    回傳 ---> Netflix 片單查詢
-<img src="https://i.imgur.com/0chPakV.jpeg" alt="Bubble【Netflix 片單查詢】" width="800" height="350">
+<img src="https://i.imgur.com/0chPakV.jpeg" alt="Bubble【Netflix 片單查詢】" style="max-width: 100%; height: auto;">
 
 2. 點擊 ---> Netflix 片單查詢 - 新片 電影<br>
    帶入 ---> Netflix 新片(電影-不含簡介) 1-10<br>
