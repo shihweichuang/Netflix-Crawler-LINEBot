@@ -10,6 +10,14 @@
 
 <br>
 
+## 立即體驗
+
+加入 LINE Bot：掃描以下 QR code，或<a href="https://line.me/R/ti/p/@673rabpy">點擊這裡</a>
+
+<img src="https://i.imgur.com/86wnboP.png" alt="Netflix 片單查詢機器人" width="20%">
+
+<br>
+
 ## 專案發想
 
 平時在使用串流平台 Netflix 時，常會關注「最近有什麼新片上線、熱門排行有哪些?」。
@@ -96,6 +104,7 @@
 
 <img src="https://i.imgur.com/g8Ook0C.png" alt="Netflix Top 10 節目" width="80%">
 
+<br>
 
 ## 使用方式
 
