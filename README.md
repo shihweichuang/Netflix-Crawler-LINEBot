@@ -96,13 +96,13 @@
 
 抓取資訊：影片ID。
 
-<img src="https://i.imgur.com/82drKVW.png" alt="Netflix Top 10 電影" width="80%">
+<img src="https://i.imgur.com/CU7uo7k.png" alt="Netflix Top 10 電影" width="80%">
 
 ### 4. <a href="https://www.netflix.com/tudum/top10/taiwan/tv">Netflix Top 10 節目</a>
 
 抓取資訊：影片ID。
 
-<img src="https://i.imgur.com/g8Ook0C.png" alt="Netflix Top 10 節目" width="80%">
+<img src="https://i.imgur.com/J3qnw33.png" alt="Netflix Top 10 節目" width="80%">
 
 <br>
 
@@ -113,15 +113,15 @@
 1. 輸入 ---> 文字【Netflix 片單查詢】<br>
    回傳 ---> 泡泡【Netflix 片單查詢】<br>
    
-   <img src="https://i.imgur.com/3Q7t2U8.jpeg" alt="泡泡【Netflix 片單查詢】" style="max-width: 100%; height: auto;">
+   <img src="https://i.imgur.com/PDEd3en.jpeg" alt="泡泡【Netflix 片單查詢】" style="max-width: 100%; height: auto;">
 
 2. 點擊 ---> 泡泡【Netflix 片單查詢】 - 新片 電影<br>
    帶入 ---> 文字【Netflix 新片(電影-不含簡介) 1-10】<br>
    回傳 ---> 泡泡【Netflix 新片(電影-不含簡介) 1-10】<br>
              (如果超過 10 部，最後會顯示下一頁。)
    
-   <img src="https://i.imgur.com/xTP0ePX.jpeg" alt="泡泡【Netflix 新片(電影-不含簡介) 1-10】" style="max-width: 100%; height: auto;">  
-   <img src="https://i.imgur.com/U9TjY8c.jpeg" alt="泡泡【Netflix 新片(電影-不含簡介) 1-10 下一頁】" style="max-width: 100%; height: auto;">
+   <img src="https://i.imgur.com/9vNkjIM.jpeg" alt="泡泡【Netflix 新片(電影-不含簡介) 1-10】" style="max-width: 100%; height: auto;">  
+   <img src="https://i.imgur.com/yHlO9NB.jpeg" alt="泡泡【Netflix 新片(電影-不含簡介) 1-10 下一頁】" style="max-width: 100%; height: auto;">
 
 4. 點擊 ---> 泡泡【Netflix 新片(電影-不含簡介) 1-10】 - 預告<br>
    跳出 ---> 影片對應連結<br>
@@ -133,29 +133,29 @@
    回傳 ---> 泡泡【Netflix 新片(電影-不含簡介) 11-20】<br>
             (最後會顯示上一頁；如果超過 20 部，最後會顯示下一頁，依此類推。)
    
-   <img src="https://i.imgur.com/9zkxoDK.jpeg" alt="泡泡【Netflix 新片(電影-不含簡介) 11-20】" style="max-width: 100%; height: auto;">
-   <img src="https://i.imgur.com/j5JW2rK.jpeg" alt="泡泡【Netflix 新片(電影-不含簡介) 11-20 上一頁】" style="max-width: 100%; height: auto;">
+   <img src="https://i.imgur.com/HnxWxOT.jpeg" alt="泡泡【Netflix 新片(電影-不含簡介) 11-20】" style="max-width: 100%; height: auto;">
+   <img src="https://i.imgur.com/uDCHGxF.jpeg" alt="泡泡【Netflix 新片(電影-不含簡介) 11-20 上一頁】" style="max-width: 100%; height: auto;">
 
 7. 點擊 ---> 泡泡【Netflix 新片(電影-不含簡介) 11-20】 - 切換至簡介版本<br>
    帶入 ---> 文字【Netflix 新片(電影-含簡介) 11-20】<br>
    回傳 ---> 泡泡【Netflix 新片(電影-含簡介) 11-20】<br>
    
-   <img src="https://i.imgur.com/J5Nv0tX.jpeg" alt="泡泡【Netflix 新片(電影-含簡介) 11-20】" style="max-width: 100%; height: auto;">  
+   <img src="https://i.imgur.com/v1dYGMa.jpeg" alt="泡泡【Netflix 新片(電影-含簡介) 11-20】" style="max-width: 100%; height: auto;">  
 
 ### 新片 - 節目
 
 1. 輸入 ---> 文字【Netflix 片單查詢】<br>
    回傳 ---> 泡泡【Netflix 片單查詢】<br>
    
-   <img src="https://i.imgur.com/KiQCIAh.jpeg" alt="泡泡【Netflix 片單查詢】" style="max-width: 100%; height: auto;">
+   <img src="https://i.imgur.com/OcscaxV.jpeg" alt="泡泡【Netflix 片單查詢】" style="max-width: 100%; height: auto;">
 
 2. 點擊 ---> 泡泡【Netflix 片單查詢】 - 新片 節目<br>
    帶入 ---> 文字【Netflix 新片(節目-不含簡介) 1-10】<br>
    回傳 ---> 泡泡【Netflix 新片(節目-不含簡介) 1-10】<br>
              (如果超過 10 部，最後會顯示下一頁。)
    
-   <img src="https://i.imgur.com/B1sqjV5.jpeg" alt="泡泡【Netflix 新片(節目-不含簡介) 1-10】" style="max-width: 100%; height: auto;">  
-   <img src="https://i.imgur.com/WiULOVi.jpeg" alt="泡泡【Netflix 新片(節目-不含簡介) 1-10 下一頁】" style="max-width: 100%; height: auto;">
+   <img src="https://i.imgur.com/xK8X6yl.jpeg" alt="泡泡【Netflix 新片(節目-不含簡介) 1-10】" style="max-width: 100%; height: auto;">  
+   <img src="https://i.imgur.com/2gyCCyE.jpeg" alt="泡泡【Netflix 新片(節目-不含簡介) 1-10 下一頁】" style="max-width: 100%; height: auto;">
 
 4. 點擊 ---> 泡泡【Netflix 新片(節目-不含簡介) 1-10】 - 預告<br>
    跳出 ---> 影片對應連結<br>
@@ -167,63 +167,61 @@
    回傳 ---> 泡泡【Netflix 新片(節目-不含簡介) 11-20】<br>
             (最後會顯示上一頁；如果超過 20 部，最後會顯示下一頁，依此類推。)
             
-   <img src="https://i.imgur.com/c7rVS1a.jpeg" alt="泡泡【Netflix 新片(節目-不含簡介) 11-20】" style="max-width: 100%; height: auto;">  
-   <img src="https://i.imgur.com/KEHELwT.jpeg" alt="泡泡【Netflix 新片(節目-不含簡介) 11-20 上一頁】" style="max-width: 100%; height: auto;">
+   <img src="https://i.imgur.com/jM36uDK.jpeg" alt="泡泡【Netflix 新片(節目-不含簡介) 11-20】" style="max-width: 100%; height: auto;">  
+   <img src="https://i.imgur.com/2ifPLQr.jpeg" alt="泡泡【Netflix 新片(節目-不含簡介) 11-20 上一頁】" style="max-width: 100%; height: auto;">
 
 6. 點擊 ---> 泡泡【Netflix 新片(節目-不含簡介) 11-20】 - 切換至簡介版本<br>
    帶入 ---> 文字【Netflix 新片(節目-含簡介) 11-20】<br>
    回傳 ---> 泡泡【Netflix 新片(節目-含簡介) 11-20】<br>
    
-   <img src="https://i.imgur.com/6SupVxB.jpeg" alt="泡泡【Netflix 新片(節目-含簡介) 11-20】" style="max-width: 100%; height: auto;">  
+   <img src="https://i.imgur.com/c4IDAfN.jpeg" alt="泡泡【Netflix 新片(節目-含簡介) 11-20】" style="max-width: 100%; height: auto;">  
 
 ### Top 10 - 電影
 
 1. 輸入 ---> 文字【Netflix 片單查詢】<br>
    回傳 ---> 泡泡【Netflix 片單查詢】<br>
    
-   <img src="https://i.imgur.com/DJYvk1T.jpeg" alt="泡泡【Netflix 片單查詢】" style="max-width: 100%; height: auto;">
+   <img src="https://i.imgur.com/dyzL1lI.jpeg" alt="泡泡【Netflix 片單查詢】" style="max-width: 100%; height: auto;">
 
 2. 點擊 ---> 泡泡【Netflix 片單查詢】 - Top 10 電影<br>
    帶入 ---> 文字【Netflix Top 10 (電影-不含簡介)】<br>
    回傳 ---> 泡泡【Netflix Top 10 (電影-不含簡介)】<br>
    
-   <img src="https://i.imgur.com/mEX108j.jpeg" alt="泡泡【Netflix Top 10 (電影-不含簡介)】" style="max-width: 100%; height: auto;">  
-   <img src="https://i.imgur.com/YWjuJgg.jpeg" alt="泡泡【Netflix Top 10 (電影-不含簡介)】" style="max-width: 100%; height: auto;">  
+   <img src="https://i.imgur.com/dt2QRAr.jpeg" alt="泡泡【Netflix Top 10 (電影-不含簡介)】" style="max-width: 100%; height: auto;">  
+   <img src="https://i.imgur.com/TI4HQTk.jpeg" alt="泡泡【Netflix Top 10 (電影-不含簡介)】" style="max-width: 100%; height: auto;">  
 
 3. 點擊 ---> 泡泡【Netflix Top 10 (電影-不含簡介)】 - 預告<br>
    跳出 ---> 影片對應連結<br>
    
-   <img src="https://i.imgur.com/lyyJ2zA.jpeg" alt="影片預告連結" width="20%">
+   <img src="https://i.imgur.com/kyYR1g0.jpeg" alt="影片預告連結" width="20%">
 
 4. 點擊 ---> 泡泡【Netflix Top 10 (電影-不含簡介)】 - 切換至簡介版本<br>
    帶入 ---> 文字【Netflix Top 10 (電影-含簡介)】<br>
    回傳 ---> 泡泡【Netflix Top 10 (電影-含簡介)】<br>
    
-   <img src="https://i.imgur.com/CXzGgcq.jpeg" alt="泡泡【Netflix Top 10 (電影-含簡介)】" style="max-width: 100%; height: auto;">
-   <img src="https://i.imgur.com/neI4fVD.jpeg" alt="泡泡【Netflix Top 10 (電影-含簡介)】" style="max-width: 100%; height: auto;">  
+   <img src="https://i.imgur.com/hxUIOqO.jpeg" alt="泡泡【Netflix Top 10 (電影-含簡介)】" style="max-width: 100%; height: auto;">
 
 ### Top 10 - 節目
 
 1. 輸入 ---> 文字【Netflix 片單查詢】<br>
    回傳 ---> 泡泡【Netflix 片單查詢】<br>
    
-   <img src="https://i.imgur.com/lOj0eI8.jpeg" alt="泡泡【Netflix 片單查詢】" style="max-width: 100%; height: auto;">
+   <img src="https://i.imgur.com/hIdGOEv.jpeg" alt="泡泡【Netflix 片單查詢】" style="max-width: 100%; height: auto;">
 
 2. 點擊 ---> 泡泡【Netflix 片單查詢】 - Top 10 節目<br>
    帶入 ---> 文字【Netflix Top 10 (節目-不含簡介)】<br>
    回傳 ---> 泡泡【Netflix Top 10 (節目-不含簡介)】<br>
    
-   <img src="https://i.imgur.com/FHb68Ax.jpeg" alt="泡泡【Netflix Top 10 (節目-不含簡介)】" style="max-width: 100%; height: auto;">
-   <img src="https://i.imgur.com/pyJkARb.jpeg" alt="泡泡【Netflix Top 10 (節目-不含簡介)】" style="max-width: 100%; height: auto;">
+   <img src="https://i.imgur.com/2G9r0k7.jpeg" alt="泡泡【Netflix Top 10 (節目-不含簡介)】" style="max-width: 100%; height: auto;">
+   <img src="https://i.imgur.com/jwW1ArE.jpeg" alt="泡泡【Netflix Top 10 (節目-不含簡介)】" style="max-width: 100%; height: auto;">
 
 3. 點擊 ---> 泡泡【Netflix Top 10 (節目-不含簡介)】 - 預告<br>
    跳出 ---> 影片對應連結<br>
    
-   <img src="https://i.imgur.com/5EgGf5E.jpeg" alt="影片預告連結" width="20%">
+   <img src="https://i.imgur.com/Q4zTNb7.jpeg" alt="影片預告連結" width="20%">
 
 4. 點擊 ---> 泡泡【Netflix Top 10 (節目-不含簡介)】 - 切換至簡介版本<br>
    帶入 ---> 文字【Netflix Top 10 (節目-含簡介)】<br>
    回傳 ---> 泡泡【Netflix Top 10 (節目-含簡介)】<br>
    
-   <img src="https://i.imgur.com/pDkqkKi.jpeg" alt="泡泡【Netflix Top 10 (節目-含簡介)】" style="max-width: 100%; height: auto;">
-   <img src="https://i.imgur.com/rqm8FWR.jpeg" alt="泡泡【Netflix Top 10 (節目-含簡介)】" style="max-width: 100%; height: auto;">
+   <img src="https://i.imgur.com/gmSCOoO.jpeg" alt="泡泡【Netflix Top 10 (節目-含簡介)】" style="max-width: 100%; height: auto;">
