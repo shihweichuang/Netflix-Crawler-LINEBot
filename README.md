@@ -2,6 +2,12 @@
 
 <br>
 
+[![觀看操作影片](https://img.youtube.com/vi/kF8BJgmL-qE/0.jpg)](https://www.youtube.com/watch?v=kF8BJgmL-qE)
+
+[觀看操作影片](https://www.youtube.com/watch?v=kF8BJgmL-qE)
+
+<br>
+
 ## 主要功能
 
 使用者在 LINE Bot 中輸入指定指令，系統即可回傳串流平台 Netflix 的新片清單、熱門排行等資訊。
